@@ -34,7 +34,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	background: url(images/bg-paper.jpg) repeat ; 
+	background: url(/assets/bg-paper.jpg) repeat ; 
 	color:#121212; 
 	font:100%/1.4em Georgia,"Times New Roman",Times,serif; 
 }
@@ -62,7 +62,7 @@ blockquote p{
 ul{ margin-left:15px; }
 ol{ padding-left:25px; }
 #canvas {
-	background:transparent url(images/header-design.jpg) top right no-repeat; 
+	background:transparent url(/assets/header-design.jpg) top right no-repeat; 
 	margin: 0 auto;
 	padding:40px 0;
 	width:1000px;
@@ -80,7 +80,7 @@ ol{ padding-left:25px; }
 	text-align:center; 
 } 
 #site-title a { 
-	background: url(images/title-stroke.gif) bottom left repeat-x; 
+	background: url(/assets/title-stroke.gif) bottom left repeat-x; 
 	color:#cc4d22; 
 	font-size:80px;
 	line-height:1.6em;
@@ -103,7 +103,7 @@ ol{ padding-left:25px; }
 	========== */
 
 .main-menu {
-	background: url(images/nav-bg.gif) repeat-x scroll left top transparent;
+	background: url(/assets/nav-bg.gif) repeat-x scroll left top transparent;
 	height:46px;
 	font-size:14px;
 	font-weight:bold;
@@ -216,7 +216,7 @@ ol{ padding-left:25px; }
 }
 #primaryContent h1.postTitle a, 
 #primaryContent h2.postTitle a {
-  	background:#0097a5 url(images/title-bg.gif) repeat 0 0; 
+  	background:#0097a5 url(/assets/title-bg.gif) repeat 0 0; 
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -232,7 +232,7 @@ ol{ padding-left:25px; }
 #primaryContent h1.postTitle a:hover, 
 #primaryContent h2.postTitle a:hover,
 #primaryContent .sticky h2.postTitle a:hover {
-	background:#CC4D22 url(images/title-bg-over.gif) repeat 0 0; 
+	background:#CC4D22 url(/assets/title-bg-over.gif) repeat 0 0; 
 	text-decoration: none; 
 }
 #primaryContent h3 {
@@ -246,21 +246,21 @@ ol#posts {
 	text-align:center;
 }
 #primaryContent p.date {
-	background: url("images/border.gif") repeat-x scroll left center transparent;
+	background: url("/assets/border.gif") repeat-x scroll left center transparent;
 	color:#666;
 	font-size: 14px; 
 	margin:10px 0 20px; 
 	text-align:center;
 }  
 #primaryContent p.date small {
-	background:url("images/bg-paper.jpg") repeat scroll 0 0 transparent; 
+	background:url("/assets/bg-paper.jpg") repeat scroll 0 0 transparent; 
 	color:#666;
 	font-size:14px;  
 	padding:0 10px; 
 }
 li.postWrapper, 
 div.postWrapper { 
-	background:url("images/border.gif") repeat-x scroll left bottom transparent; 
+	background:url("/assets/border.gif") repeat-x scroll left bottom transparent; 
 	margin:0 0 50px; 
 	padding:0 0 20px; 
 }
@@ -317,7 +317,7 @@ li.postWrapper.sticky {
     padding: 20px 10px;
 }
 #primaryContent .sticky h2.postTitle a {
-    background: url(images/title-bg-sticky.gif) repeat scroll 0 0 #910f0f;
+    background: url(/assets/title-bg-sticky.gif) repeat scroll 0 0 #910f0f;
 }
 #primaryContent .sticky p.date,
 #primaryContent .sticky p.date small {
@@ -340,7 +340,7 @@ li.postWrapper.sticky {
     width: 200px;
 }
 .pagination-newer a { 
-	background: transparent url(images/pagination-left.jpg) no-repeat center left; 
+	background: transparent url(/assets/pagination-left.jpg) no-repeat center left; 
 	padding:5px 0 5px 30px;
 	width:105px;
 }
@@ -350,7 +350,7 @@ li.postWrapper.sticky {
     width: 200px;
 }
 .pagination-older a { 
-	background: transparent url(images/pagination-right.jpg) no-repeat center right ; 
+	background: transparent url(/assets/pagination-right.jpg) no-repeat center right ; 
 	float:right;
 	padding-right:30px;
 	width:100%;
@@ -498,7 +498,7 @@ div.aligncenter {
 /* SOCIAL MEDIA ICONS
 ----------------------- */
 a.rss {
-	background:transparent url(images/socialMediaIcons.gif) -81px 0 no-repeat;
+	background:transparent url(/assets/socialMediaIcons.gif) -81px 0 no-repeat;
 	display:block; 
 	float:left;  
 	margin-left:10px;
@@ -507,13 +507,13 @@ a.rss {
 	height:37px;
 }
 a:hover.rss { 
-	background:transparent url(images/socialMediaIcons.gif) -81px -37px no-repeat; 
+	background:transparent url(/assets/socialMediaIcons.gif) -81px -37px no-repeat; 
 	-webkit-transition: none;
 	-moz-transition: none;
     -o-transition:none;
 }
 a.twitter{
-	background:transparent url(images/socialMediaIcons.gif) 0px 0 no-repeat;
+	background:transparent url(/assets/socialMediaIcons.gif) 0px 0 no-repeat;
 	display:block; 
 	float:left;	
 	text-indent:-9999px; 
@@ -521,13 +521,13 @@ a.twitter{
 	height:37px;
 }
 a:hover.twitter{
-	background:transparent url(images/socialMediaIcons.gif) 0px -37px no-repeat; 
+	background:transparent url(/assets/socialMediaIcons.gif) 0px -37px no-repeat; 
 	-webkit-transition: none;
 	-moz-transition: none;
     -o-transition:none;
 }
 a.facebook{
-	background:transparent url(images/socialMediaIcons.gif) -40px 0 no-repeat;
+	background:transparent url(/assets/socialMediaIcons.gif) -40px 0 no-repeat;
 	display:block; 
 	float:left;
 	margin-left:10px;	
@@ -536,7 +536,7 @@ a.facebook{
 	height:37px;
 }
 a:hover.facebook{
-	background:transparent url(images/socialMediaIcons.gif) -40px -37px no-repeat; 
+	background:transparent url(/assets/socialMediaIcons.gif) -40px -37px no-repeat; 
 	-webkit-transition: none;
 	-moz-transition: none;
     -o-transition:none;
@@ -702,7 +702,7 @@ a:hover.facebook{
 		text-align: center;
 	}
 	.main-menu ul {
-		background:url(images/nav-bg.gif) repeat-x scroll left bottom;
+		background:url(/assets/nav-bg.gif) repeat-x scroll left bottom;
 	}
 	.main-menu ul li {
     	display: inline;

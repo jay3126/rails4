@@ -1,14 +1,36 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mogoid</title>
+  <title>Blog</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin' rel='stylesheet' type='text/css'>
+
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="canvas">
+  <div id="header-wrap">
+    <div id="header">
+      <h1 id="site-title"><span><%= link_to 'Blog', :root %></span></h1>
+    </div>
+  </div>
 
-<%= yield %>
+  <div id="primaryContent">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
+    <%= yield %>
+  </div>
+
+  <div id="secondaryContent">
+
+  </div>
+
+  <div id="footer">
+
+  </div>
+</div>
 </body>
 </html>
