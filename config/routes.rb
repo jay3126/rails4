@@ -4,7 +4,7 @@ Mogoid::Application.routes.draw do
   resources :posts
   
   root :to => 'posts#index'
-
+ match 'auth/twitter/callback', to: 'sessions#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
